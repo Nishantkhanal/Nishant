@@ -1,0 +1,374 @@
+/*css code for body part*/
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/z.jpg);
+ }
+.background{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+/*css code for header started*/
+header{
+	 background-color: #35424a;
+	 border-bottom: skyblue 5px solid;
+}
+ul li.active a{
+	background-color: lightblue;
+	color: red;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.5s ease;
+}
+ul li a:hover{
+	background-color: black;
+	color:red;
+}
+header a{
+ 	color: #ffffff;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 16px;
+   }
+   header ul{
+   	margin: 0;
+   	padding: 0;
+   }
+   header li{
+   	float: left;
+   	display: inline;
+   	padding: 0 20px 0 20px;
+
+   }
+    header #Homepage{
+   	float: left;
+
+   }
+   header #Homepage{
+   	margin: 0;
+   }
+
+   header nav{
+   	float: right;
+   	margin-top: 20px;
+   }
+   /*css code for header closes*/
+    .showcase{
+        min-height: 400px;
+ 	}
+ .copyright{
+    min-height: 10px;
+ 	background: #35424a;
+ 	margin: 0;
+ 	padding: 25px;
+ 	margin-top: 70px;
+ }
+ table{
+	font-size:15px;
+	position:absolute;
+	top: 180%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+table td{
+	width: 5%
+}
+.copyrightss{
+	background: #35424a;
+	font-size:15px;
+	position:absolute;
+	top: 225%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.showcase{
+	overflow: hidden;
+	height: 400px;
+	
+}
+.showcase figure div{
+	float: left;
+	width: 20%;
+}
+.showcase figure img{
+	width: 100%;
+	float: left;
+}
+.showcase figure{
+	position: relative;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 30s nishant infinite;
+}
+ @keyframes nishant{
+ 	0%{
+ 		left: 0%;
+
+ 	}
+ 	10%{
+ 		left: 0%;
+
+ 	}
+ 	12%{
+         left: -100%;
+ 	}
+ 	22%{
+       left: -100%;
+ 	}
+ 	24%{
+         left: -200%;
+ 	}
+ 	34%{
+       left: -200%;
+ 	}
+ 	36%{
+      left: -300%;
+ 	}
+ 	46%{
+      left: -300%;
+ 	}
+ 	48%{
+        left: -400%;
+ 	}
+ 	58%{
+       left: -400%;
+ 	}
+ 	60%{
+        left: -300%;
+ 	}
+ 	70%{
+          left: -300%;
+ 	}
+ 	72%{
+         left: -200%;
+ 	}
+ 	82%{
+       left: -200%;
+ 	}
+ 	84%{
+        left: -100%;
+ 	}
+ 	94%{
+ left: -100%;
+ 	}
+ 	96%{
+     left: 0%;
+ 	}
+
+}
+.text{
+	width: 600px;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	color: #fff;
+}
+.text h1{
+	margin: 40px;
+}
+.text p{
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 80px;
+}
+.define{
+	font-size: 15px;
+	float: right;
+	margin-right:3%;
+	margin-top: 8%;
+	margin-left: 63%;
+}
+.Quotes h1{
+	font-size:30px;
+	position:absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}
+.Quotes h2{
+	font-size:30px;
+	position:absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}
+
+.Quotes h3{
+	font-size:30px;
+	position:absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}
+
+.hey{
+	min-height: 20px;
+}
+.disadvantage{
+			float:left;
+			margin-left: 150px;
+			margin-top: -210px;
+		}
+
+.social{
+	font-size:15px;
+	position:absolute;
+	top: 190%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.FBs{
+	margin-left: 110px;
+	margin-top: 70px;
+}
+.FBs img{
+	padding-left:20px; 
+}
+.hello{
+	width: 85%;
+	max-width: 600px;
+	background: #f1f1f1;
+ margin-left: 55%;
+ margin-top: 35%;
+ transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+}
+.hello h1{
+	font-weight: 200;
+}
+ol input{
+	font-size: 20px;
+
+}
+textarea{
+	width: 250px;
+	font-size: 15px;
+	margin: auto;
+}
+input[type=submit]{
+	padding:4px;
+	font-size: 20px;
+}
+.txtb{
+	margin-left: -80px;
+}
+.photo{
+	float: left;
+	margin-top: -1110px;
+	cursor: pointer;
+	}
+	.text-s{
+		width: 400px;
+		height: 300px;
+		position: absolute;
+		margin-top: -1110px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		transition: 0.7 ease;
+}
+.text-s h2{
+	color: white;
+	font-size: 50px;
+	border:6px solid white;
+	padding: 10px 30px;
+
+}
+.photo:hover{
+	color: red;
+}
+.comp{
+	float:right;
+	margin-right: 40px;
+	margin-top: -1350px;			
+}
+.compone{
+	float:left;
+	margin-left: 85px;
+	margin-top: -1080px;			
+}
+.comptwo{
+	float:right;
+	margin-right: 40px;
+	margin-top: -750px;			
+}
+.compthree{
+	float:left;
+	margin-left: 85px;
+	margin-top: -520px;			
+}
+.compfour{
+	float:right;
+	margin-right: 40px;
+	margin-top: -300px;			
+}
+
+.defcomp{
+	float:left;
+	margin-left: 100px;
+	margin-top: 40px;
+	margin-right: 800px;
+}
+.defcompone{
+	float:right;
+	margin-left: 900px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+.defcomptwo{
+	float:left;
+	margin-left: 100px;
+	margin-top: 60px;
+	margin-right: 800px;
+}
+.defcompthree{
+	float:right;
+	margin-left: 900px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+.defcompfour{
+	float:left;
+	margin-right: 800px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.button{
+	position: absolute;
+	top: 165%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+@media all and (max-width: 800px){
+body{
+ font-size: 0.9rem;
+}
+
+
+}
